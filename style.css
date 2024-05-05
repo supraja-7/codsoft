@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(pic.jpg/image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+header .logo {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-property: background;
+} 
+header .navigation a:not(:last-child) {
+    margin-right: 30px;
+} 
+header .navigation a:hover {
+    background: #fff;
+}
+section{
+    width: 500px;
+    margin: 60px 100px;
+}
+section h2{
+    color: #238bd6;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+section h2 span {
+    color:rgb(20, 220, 213);
+    font-size: 45px;
+    font-weight: 500px;
+}
+section p {
+    font-size: 16px;
+    font-weight: 450;
+    margin-bottom: 40px;
+}
+section .info {
+    color:#fff;
+    background: #2f23d6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+section .info:hover {
+    background: #162ee7;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+footer a {
+    position: relative;
+    color:#fff;
+    font-size: 30px;
+}
+footer a:not(:last-child){
+    margin-right: 60px;
+}
+footer a:hover {
+    transform: scale(1.5);
+}
